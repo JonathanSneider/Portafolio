@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+}
+
+.foto, #foto1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(128, 11, 83);
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+#logogit, #logoig, #logolink{
+    width:15%;
+    padding: 10px;
+}
+
+#hrr{
+    overflow: hidden;
+}
+.container1 {
+    font-size: 125%;
+    width: 30%;
+    overflow: break-word;
+}
+
