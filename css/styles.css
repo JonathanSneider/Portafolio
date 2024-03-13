@@ -1,27 +1,64 @@
 * {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+    font-family: rubik, "Helvetica Neue", Helvetica, sans-serif;;
 }
 
 .foto, #foto1{
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     background-color: rgb(128, 11, 83);
     border-radius: 50%;
     text-align: center;
+    background: rgb(61,32,58);
+    background: linear-gradient(90deg, rgba(61,32,58,1) 0%, rgba(59,4,57,1) 44%, rgba(49,3,71,1) 91%);
 
 }
 
 #logogit, #logoig, #logolink{
-    width:15%;
+    width:11%;
     padding: 10px;
 }
 
-#hrr{
-    overflow: hidden;
+.hrr{
+    width: 25%; /* Calculamos el ancho como un tercio del ancho de la pantalla */
+    border: none; /* Eliminamos el borde por defecto del HR */
+    height: 2px; /* Definimos la altura de la línea */
+    background-color: rgb(77, 133, 114); /* Color de la línea */
+    
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Alineamos la línea a la izquierda */
+.izq{
+    float: left;
 }
 .container1 {
-    font-size: 125%;
+    font-size: 120%;
     width: 30%;
     overflow: break-word;
+    color: rgba(23, 204, 228, 0.973);
+}
+.cuerpo {
+    background: rgb(61,32,58);
+    background: linear-gradient(90deg, rgba(61,32,58,1) 0%, rgba(59,4,57,1) 44%, rgba(49,3,71,1) 91%);
 }
 
+.container2{
+    font-size: 129%;
+    width: 35%;
+    overflow: break-word;
+    color: rgb(52, 204, 204);
+}
+
+.container3{
+    font-size: 129%;
+    width: 35%;
+    overflow: break-word;
+    color: beige;
+}
+.strong, .strong1, .strong2, .strong3{
+    color: rgb(46, 148, 97);
+}
