@@ -1,5 +1,5 @@
 * {
-    font-family: rubik, "Helvetica Neue", Helvetica, sans-serif;;
+    font-family:  rubik, "Helvetica Neue", Helvetica, sans-serif;;
 }
 
 .foto, #foto1{
@@ -7,7 +7,7 @@
     height: 240px;
     background-color: rgb(128, 11, 83);
     border-radius: 50%;
-    text-align: center;
+    margin: auto;
     background: rgb(61,32,58);
     background: linear-gradient(90deg, rgba(61,32,58,1) 0%, rgba(59,4,57,1) 44%, rgba(49,3,71,1) 91%);
 
@@ -33,17 +33,16 @@
   }
   
 /* Alineamos la línea a la izquierda */
-.izq{
-    float: left;
-}
+
 .container1 {
+    text-align: center;
     font-size: 115%;
     width: 30%;
     overflow: break-word;
     color: rgba(23, 204, 228, 0.973);
 }
 .cuerpo {
-    background: rgb(61,32,58);
+    background: rgb(158, 46, 147);
     background: linear-gradient(90deg, rgba(61,32,58,1) 0%, rgba(59,4,57,1) 44%, rgba(49,3,71,1) 91%);
 }
 
@@ -74,7 +73,7 @@
 .container1, .container2, .container3 {
     margin-bottom: 2px; /* Ajusta el espacio entre los divs */
     padding: 10px;
-    border: 1px solid rgb(131, 7, 75);
+    border: 1px solid rgb(27, 63, 6);
     background-color: rgb(73, 6, 68);
     width: 100%; /* Opcional: asegura que los divs ocupen todo el ancho del contenedor */
     box-sizing: border-box; /* Opcional: incluye el padding y el borde en el ancho total */
