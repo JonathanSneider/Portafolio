@@ -1,5 +1,5 @@
 * {
-    font-family:  rubik, "Helvetica Neue", Helvetica, sans-serif;;
+    font-family:  roboto, "Helvetica Neue", Helvetica, sans-serif;;
 }
 
 .foto, #foto1{
@@ -12,6 +12,11 @@
     background: linear-gradient(90deg, rgba(61,32,58,1) 0%, rgba(59,4,57,1) 44%, rgba(49,3,71,1) 91%);
 
 }
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 #logogit, #logoig, #logolink{
     width:11%;
@@ -32,7 +37,18 @@
     font-style: normal;
   }
   
-/* Alineamos la línea a la izquierda */
+.container1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
+.container2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
+.container3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+}
 
 .container1 {
     text-align: center;
@@ -65,6 +81,12 @@
     color: rgb(46, 148, 97);
 }
 
+.imgpy{
+    width: 10%;
+}
+.imghtml{
+    width: 13%;
+}
 
 .container {
     display: flex;
@@ -74,7 +96,7 @@
     margin-bottom: 2px; /* Ajusta el espacio entre los divs */
     padding: 10px;
     border: 1px solid rgb(27, 63, 6);
-    background-color: rgb(73, 6, 68);
+    background-color: rgb(85, 0, 52);
     width: 100%; /* Opcional: asegura que los divs ocupen todo el ancho del contenedor */
     box-sizing: border-box; /* Opcional: incluye el padding y el borde en el ancho total */
 }
